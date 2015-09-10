@@ -1,0 +1,8 @@
+---
+title: "My first story"
+author: "Aaron Honig"
+date: "September 10, 2015"
+output: html_document
+---
+
+Once upon a time there was an octocat that dreamed of becoming a mountie. 
