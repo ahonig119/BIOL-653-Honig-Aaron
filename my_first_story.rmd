@@ -6,3 +6,6 @@ output: html_document
 ---
 
 Once upon a time there was an octocat that dreamed of becoming a mountie. 
+
+He used to go to the RCMP musical rides at the fair as a child and watch all those beautiful Canadians trot around in the ring. 
+
