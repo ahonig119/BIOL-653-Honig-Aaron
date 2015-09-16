@@ -1,0 +1,2024 @@
+Last login: Wed Sep  9 20:48:14 on ttys000
+Aarons-MacBook-Pro-2:~ Aerandir42$ cd _Homework
+-bash: cd: _Homework: No such file or directory
+Aarons-MacBook-Pro-2:~ Aerandir42$ cd homework
+-bash: cd: homework: No such file or directory
+Aarons-MacBook-Pro-2:~ Aerandir42$ cd / homework
+Aarons-MacBook-Pro-2:/ Aerandir42$ cd R_Projects
+-bash: cd: R_Projects: No such file or directory
+Aarons-MacBook-Pro-2:/ Aerandir42$ ls
+Applications		anaconda		net
+Library			bin			opt
+Network			cores			private
+System			dev			sbin
+User Information	etc			tmp
+Users			home			usr
+Volumes			mach_kernel		var
+Aarons-MacBook-Pro-2:/ Aerandir42$ cd ~
+Aarons-MacBook-Pro-2:~ Aerandir42$ ls
+Applications				Library
+Condensed Density Code.R		Log then Mean.R
+Connectivity Code.R			Michigan_Jersey.pdf
+Desktop					Michigan_Jersey.svg
+Documents				Movies
+Downloads				Music
+Dropbox					NearShore FirstLast Richness.png
+Hedges By System.pdf			Pictures
+Hmwk 1 R-Code.R				Public
+Hmwk 4 Code.R				R-Studio.Bio607.Practice.R
+Honig.BIO607.Hmwk5.R			Stat_Project_R2.R
+Honig.Jersey.svg			ibt_application.log
+Honig_Jersey.pdf			ibtsa.log
+Honig_Jersey.svg			libMUCam.dylib
+Juv_Larv Code.R				oasys.log
+L-J.Comparison Code.R			test
+L_J.Tank2.Means.csv
+Aarons-MacBook-Pro-2:~ Aerandir42$ cd ..
+Aarons-MacBook-Pro-2:Users Aerandir42$ ls
+Aerandir42	Shared
+Aarons-MacBook-Pro-2:Users Aerandir42$ cd ~
+Aarons-MacBook-Pro-2:~ Aerandir42$ ls
+Applications				Library
+Condensed Density Code.R		Log then Mean.R
+Connectivity Code.R			Michigan_Jersey.pdf
+Desktop					Michigan_Jersey.svg
+Documents				Movies
+Downloads				Music
+Dropbox					NearShore FirstLast Richness.png
+Hedges By System.pdf			Pictures
+Hmwk 1 R-Code.R				Public
+Hmwk 4 Code.R				R-Studio.Bio607.Practice.R
+Honig.BIO607.Hmwk5.R			Stat_Project_R2.R
+Honig.Jersey.svg			ibt_application.log
+Honig_Jersey.pdf			ibtsa.log
+Honig_Jersey.svg			libMUCam.dylib
+Juv_Larv Code.R				oasys.log
+L-J.Comparison Code.R			test
+L_J.Tank2.Means.csv
+Aarons-MacBook-Pro-2:~ Aerandir42$ cd Desktop
+Aarons-MacBook-Pro-2:Desktop Aerandir42$ ls
+$RECYCLE.BIN
+1996-9-1997-9-21.3000-2.5-95.textClipping
+6670406_l2.jpg
+Aaron.Shots
+Algae_Protocols.Combined.2015.docx
+Algae_Protocols.Combined.2015.pdf
+Algal Growing Papers
+Allegra Physics.pages
+Allegra Physics.pdf
+Alligator.pages
+Angelo Files
+Annya_experience_final.docx
+April 2015 Project Meeting.pdf
+April 2015 Project Meeting.pptx
+Bike photos
+Bivalve Hatchery Manual.pages
+Blog Post 3.pages
+Bowen Final Paper.pages
+CRMS Environmental Data
+CRMS.Data.Description.pdf
+Ch2_text_AH_Corrections.docx
+Conor
+DEI.Algae_Protocol.2015.docx
+Desktop 11:17:14
+Desktop Files
+Discriminant.png
+Discriminant.svg
+Discriminant2.png
+Discriminant2.pptx
+Discriminant3.pptx
+Discriminant4.pptx
+Discriminant5.pptx
+Discriminant6.pptx
+Discriminant7.pptx
+Dissertation Proposal April 2015.pages
+Dissertation Proposal April 2015.pdf
+Dissertation Proposal April 2015b.docx
+Dissertation Proposal April 2015b.pages
+EAF_Instrument_Use-Analysis_Request_Form_2015120.pdf
+Ecology Paper Comments.pages
+Ecology Paper Typed Comments.pages
+Ecology R Code.pages
+Ecology Stat Tables.pages
+Ecology Supplemental Figures.January2015.pdf
+Ecology Supplemental Figures.pages
+Ecosphere Supplementary Files
+Evolution Study Guide.pages
+FLASH DRIVE  8:10:15
+FLASH DRIVE 7:19:15
+Files to Filter
+Full ICPMS Sample Sheet 2014.numbers
+GI_Length.Mussels.5_20_15.numbers
+GI_Length.Mussels.5_20_15.pdf
+GetFileAttachment.html
+Gonad.Indices_GFS_06032015.xlsx
+Honig.Blurb.2015.docx
+Honig.ChalkTalk.SciComm2015.pptx
+Honig.ChalkTalk.SciComm2015_ah_corrections.pptx
+Honig.Dissertation.Outline.March2015.pages
+Honig.Dissertation.Proposal.2015.pdf
+Honig.Dissertation.Proposal.Spring2015.pdf
+Honig.DissertationOutline.SciComm2015.docx
+Honig.DissertationOutline.SciComm2015.pages
+Honig.DissertationOutline.SciComm2015.pdf
+Honig.DissertationOutline.Spring2015.pdf
+Honig.DissertationOutline2.SciComm2015.docx
+Honig.DissertationOutline2.SciComm2015.pages
+Honig.DissertationOutline2.SciComm2015.pdf
+Honig.EvolutionSurvey.Spring2015.pages
+Honig.EvolutionSurvey.Spring2015.pdf
+Honig.Goldschmidt.2015.pptx
+Honig.Goldschmidt.EditedVersion 2.pptx
+Honig.Goldschmidt.EditedVersion.pptx
+Honig.Goldschmidt.TooLongVersion 2.pptx
+Honig.Goldschmidt.TooLongVersion copy.pptx
+Honig.Goldschmidt.TooLongVersion.pptx
+Honig.Goldschmidt.pptx
+Honig.Grant_Proposal.NSF_PD981650.Spring2015 .pdf
+Honig.L-J.Juv.2015.numbers
+Honig.L-J.Juv.2015.pdf
+Honig.L-J.Juv.2015.xlsx
+Honig.L-J.Juv.Data.2015.pdf
+Honig.L-J.Juv.Data.2015.xlsx
+Honig.L-J.SpawningNotes.2015.pages
+Honig.L-J.SpawningNotes.2015.pdf
+Honig.LaPeyre.Supan.Ecosphere.Supplementary.Files.zip
+Honig.LaPeyre.Supan.Supplementary.Data.Descriptions.Ecosphere.docx
+Honig.Mussels.FoxDock.5_14_15.xlsx
+Honig.Mussels.FoxDock.5_14_2015.pdf
+Honig.PosterAbstract.who.oapi2015.pages
+Honig.PosterAbstract.whoi.oapi2015.docx
+Honig.PosterAbstract_Corrected.who.oapi2015.docx
+Honig.ProposalPresentation copy 2.pptx
+Honig.ProposalPresentation copy.pptx
+Honig.ProposalPresentation.2015.pdf
+Honig.ProposalPresentation.pptx
+Honig.Proposed.Purchase.Order.4_15.pdf
+Honig.Report.Final_Project.pages
+Honig.ResearchBlog1.SciComm.Spring2015.docx
+Honig.ResearchBlog1.SciComm.Spring2015.pages
+Honig.RevisedElevatorTalk.SciComm2015.docx
+Honig.RevisedElevatorTalk.SciComm2015.pages
+Honig.RevisedElevatorTalk.SciComm2015.pdf
+Honig.SeminarReview1.SciComm2015.pages
+Honig.SeminarReview1.SciComm2015.pdf
+Honig.SeminarReview2.SciComm2015.pages
+Honig.SeminarReview2.SciComm2015.pdf
+Honig.Supplementary.Data.Ecoscience.docx
+Honig.Supplementary.Data.Ecoscience.pdf
+Honig.Supplementary.Data.Ecosphere.pages
+Honig.Supplementary.Data.Ecosphere.pdf
+Honig.WHOI.OA.Poster.pdf
+Honig_Abstract_2015.docx
+Honig_Abstract_Goldschmidt2015.docx
+Horseshoe crab.pages
+ICPMS Files
+ICPMS_UMolMol_815.numbers
+JMP.New.htm
+Juv_Deploy_2014.csv
+Juv_Settler_14.csv
+Juvenile_Larval_Comparison_2014.pages
+Juvenile_Larval_Comparison_2014.pdf
+Kreeger, 2011.pdf
+L.J.Juv.Sizes.csv
+L_J.Tank2.Comparison.Figure.png
+L_J_Comparison_MeanSE.numbers
+L_J_Comparison_MeanSE.pdf
+Larv Juv Sheet2.numbers
+LarvJuv_85.csv
+Larv_Juv815.csv
+Larv_Juv_815.csv
+Larv_Juv_Comparison April 2015.pages
+Larv_Juv_Comparison_2014.pdf
+Larval Juvenile Comparison Notes.pages
+Larval and Juvenile Comparison Notes.docx
+Larval and Juvenile Comparison Notes_3_2015.docx
+Larval_Juv_815_2.csv
+Larval_Juvenile_Comparison_2014.pdf
+Larval_Juvenile_Comparison_815.numbers
+Launcher.app
+MalletiaDDH3.Corrected-AH.docx
+MalletiaDDH3.Corrected-AH.pdf
+MarineDiv%20Master%20Reassigned%2091114-2 (version 1).xlsb
+Martine_chapter3_ah_corrections.docx
+Martine_chapter3_ah_corrections.pages
+May 4, 2015 - Brian Grazer (21-28).webloc
+Mean Mussel Sizes.numbers
+Megan_Data_All.numbers
+Meta Files
+Mussel Photos
+Mussel_Plots.pages
+Mussel_Size_Histogram_Figure 5.docx
+Mussel_Size_Histogram_Figure 5.pdf
+Mussel_Size_Histogram_Figure 5_DATA.xlsx
+Mussel_Size_Histogram_Figure 5_Raw_Figure.docx
+Mussel_Size_Histogram_Figure 5_Raw_Figure.pdf
+NSF Grant Spring 2015.pages
+NSF-ICPMS
+NSF.ICPMS.Data.v1.1.NA.csv
+NSF.ICPMS.Data.v1.1.csv
+NSF.ICPMS.Data.v1.1.numbers
+NSF.ICPMS.Data.v1.1.pdf
+NSF.ICPMS.Data.v1.1.xlsx
+NSF.ICPMS.Data.v1.1b.numbers
+NSF_Inventory_2014.numbers
+NSF_Inventory_2014.pdf
+NSF_Inventory_2014.xlsx
+NSF_Inventory_2015.numbers
+NSF_Inventory_2015.pdf
+NSF_Inventory_2015.xlsx
+NSF_Inventory_All_Years.pdf
+NSF_Inventory_All_Years.xlsx
+NSF_Summary_2015.docx
+NSF_Summary_2015.pages
+NSF_Summary_2015_a.pages
+NSF_Summary_2015_figs.docx
+NSF_Summary_2015_figs.pages
+NSF_Summary_2015_figs.pdf
+NSF_Summary_2015_text.docx
+NSF_Summary_Inventory.numbers
+Neponset Files
+New Data
+New Data April 2015 ummol.numbers
+New Data2
+Notepad++.lnk
+P3_figs_Nov5.docx
+PB Larvae April 2015.numbers
+PB_Larv_Juv_Comparison.pages
+Paper 2 Corrections.pages
+Presentation2.pdf
+Price List.numbers
+Proposal References.pages
+Publication Data Publishing Instructions.pages
+R_Projects
+Robinson.Algae_Protocol.2015.pdf
+Ron's Papers
+SAT_Plan_Allegra.pdf
+Seth_Love_Example.numbers
+Seth_Love_Example.xlsx
+Shell Lengths, GIs 6_4_2015.numbers
+Stat Project Code.pages
+Thumbs.db
+Ticket.694856326.Photographic Evidence.jpg
+Ticket.694856326.Photographic Evidence.png
+Turtle Power.pages
+Turtle Power.pdf
+UK_Prague_Flight.pdf
+Untitled 2.pdf
+WHOI_OA_Poster.pdf
+WHOI_OA_Poster.pptx
+WOW Air Confirmation.pdf
+back-to-school-classroom-537x402.jpg
+desktop.ini
+imgad.jpeg
+loadingbanner_600x330.gif
+~$Honig.XShelf.Mussel_Data.xlsx
+~$firstlastall.xlsx
+~$meto Figures.docx
+Aarons-MacBook-Pro-2:Desktop Aerandir42$ cd R_Projects
+Aarons-MacBook-Pro-2:R_Projects Aerandir42$ ls
+homework
+Aarons-MacBook-Pro-2:R_Projects Aerandir42$ cd homework
+Aarons-MacBook-Pro-2:homework Aerandir42$ pwd
+/Users/Aerandir42/Desktop/R_Projects/homework
+Aarons-MacBook-Pro-2:homework Aerandir42$ cd ~
+Aarons-MacBook-Pro-2:~ Aerandir42$ ls
+Applications				Library
+Condensed Density Code.R		Log then Mean.R
+Connectivity Code.R			Michigan_Jersey.pdf
+Desktop					Michigan_Jersey.svg
+Documents				Movies
+Downloads				Music
+Dropbox					NearShore FirstLast Richness.png
+Hedges By System.pdf			Pictures
+Hmwk 1 R-Code.R				Public
+Hmwk 4 Code.R				R-Studio.Bio607.Practice.R
+Honig.BIO607.Hmwk5.R			Stat_Project_R2.R
+Honig.Jersey.svg			ibt_application.log
+Honig_Jersey.pdf			ibtsa.log
+Honig_Jersey.svg			libMUCam.dylib
+Juv_Larv Code.R				oasys.log
+L-J.Comparison Code.R			test
+L_J.Tank2.Means.csv
+Aarons-MacBook-Pro-2:~ Aerandir42$ cd Desktop
+Aarons-MacBook-Pro-2:Desktop Aerandir42$ cd R_Projects
+Aarons-MacBook-Pro-2:R_Projects Aerandir42$ cd homework
+Aarons-MacBook-Pro-2:homework Aerandir42$ ls 
+homework.Rproj		my_first_story.rmd
+Aarons-MacBook-Pro-2:homework Aerandir42$ git add my_first_story.rmd
+Aarons-MacBook-Pro-2:homework Aerandir42$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   my_first_story.rmd
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	homework.Rproj
+
+Aarons-MacBook-Pro-2:homework Aerandir42$ git commit -m 'initial commit'
+[master (root-commit) 9e71d9c] initial commit
+ Committer: Aaron Honig <Aerandir42@Aarons-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+)
+ create mode 100644 my_first_story.rmd
+Aarons-MacBook-Pro-2:homework Aerandir42$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   my_first_story.rmd
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	homework.Rproj
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Aarons-MacBook-Pro-2:homework Aerandir42$ git diff my_first_story.rmd
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all t
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all t
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all tho
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all tho
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all thos
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all thos
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all thos
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all tho
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all t
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all t
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all th
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all tho
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all thos
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those 
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those b
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those be
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those be
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those beau
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those beau
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those beau
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END) 
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOC
+story.rmd
+
+
+
+
+
+
+
+ dreamed of becoming a mountie. 
+
+ dreamed of becoming a mountie. 
+
+ the fair as a child and watch all those beautiful Canadians trot around in the ring. 
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOC
+story.rmd
+
+
+
+
+
+
+
+ dreamed of becoming a mountie. 
+
+ dreamed of becoming a mountie. 
+
+ the fair as a child and watch all those beautiful Canadians trot around in the ring. 
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+autiful Canadians trot around in the ring. 
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+autiful Canadians trot around in the ring. 
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+story.rmd
+
+
+
+
+
+
+
+ dreamed of becoming a mountie. 
+
+ dreamed of becoming a mountie. 
+
+ the fair as a child and watch all those beautiful Canadians trot around in the ring. 
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+diff --git a/my_first_story.rmd b/my_first_story.rmd
+index c387391..00537c3 100644
+--- a/my_first_story.rmd
++++ b/my_first_story.rmd
+@@ -5,4 +5,7 @@ date: "September 10, 2015"
+ output: html_document
+ ---
+ 
+-Once upon a time there was an octocat that dreamed of becoming a mountie. 
+\ No newline at end of file
++Once upon a time there was an octocat that dreamed of becoming a mountie. 
++
++He used to go to the RCMP musical rides at the fair as a child and watch all those bea
++
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Aarons-MacBook-Pro-2:homework Aerandir42$ 
+Aarons-MacBook-Pro-2:homework Aerandir42$ git add -m 'second edit'
+error: unknown switch `m'
+usage: git add [options] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+
+Aarons-MacBook-Pro-2:homework Aerandir42$ git add my_first_story.rmd
+Aarons-MacBook-Pro-2:homework Aerandir42$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   my_first_story.rmd
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	homework.Rproj
+
+Aarons-MacBook-Pro-2:homework Aerandir42$ git commit -m 'octocat forms his dreams'
+[master 4177af4] octocat forms his dreams
+ Committer: Aaron Honig <Aerandir42@Aarons-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Aarons-MacBook-Pro-2:homework Aerandir42$ git log
+commit 4177af4ed2ccf9d33db30916c1730909e663ddbc
+Author: Aaron Honig <Aerandir42@Aarons-MacBook-Pro-2.local>
+Date:   Thu Sep 10 09:48:41 2015 -0400
+
+    octocat forms his dreams
+
+commit 9e71d9caa231507cead5e61756335b89d05cd998
+Author: Aaron Honig <Aerandir42@Aarons-MacBook-Pro-2.local>
+Date:   Thu Sep 10 09:42:43 2015 -0400
+
+    initial commit
+Aarons-MacBook-Pro-2:homework Aerandir42$ git config --global user.name "Aaron Honig"
+Aarons-MacBook-Pro-2:homework Aerandir42$ git config --global user.email aaron.honig001@umb.edu
+Aarons-MacBook-Pro-2:homework Aerandir42$ 
