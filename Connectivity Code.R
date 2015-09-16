@@ -1268,7 +1268,7 @@ ggplot(data=PHB_Larv_Fe57, aes(x=ID, y=value)) + geom_bar(stat="identity", posit
 PHB_Larv_Ca48 <- PHB_Larv_Melt[which(PHB_Larv_Melt$variable=='Ca48'),]
 ggplot(data=PHB_Larv_Ca48, aes(x=ID, y=log10(value))) + geom_bar(stat="identity", position=position_dodge(), colour="black")  
 
-
+R CODE REALLY SUCKS!!!
 
 
 
