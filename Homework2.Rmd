@@ -1,0 +1,96 @@
+---
+title: "Hmwk2"
+author: "Aaron Honig"
+date: "September 25, 2015"
+output: html_document
+---
+
+Homework #2
+
+
+1. To make a scatterplot of life expectancy as a function of gdp per capita, assigning each continent an independent color and shape, I assigned a color to continents in the ggplot aes, and shape to aes within geom_point. 
+
+```{r}
+library(ggplot2)
+library(gapminder)
+library(plyr)
+ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp, color = continent)) + geom_point(aes(shape = continent))
+```
+
+
+2.  To make the same figure with a log transformed x-axis, I added scale_x_log10(). 
+
+```{r}
+ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp, color = continent)) + geom_point(aes(shape = continent)) + scale_x_log10()
+```
+
+3. To add a smoothed linear regression line over the plot, I added geom_smooth(method = lm), and moved the color assignment to geom_point so that geom_smooth was not performed for each continent independently. 
+
+```{r}
+ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) + geom_point(aes(shape = continent, color = continent)) + scale_x_log10() + geom_smooth(method = lm)
+```
+
+4.  To facet wrap density plots of life expectancy for each continent by year, I used "fill", informed facet wrap by year, assigned 4 columns, and reduced the opacity by 0.5. 
+
+```{r}
+ggplot(data = gapminder, aes(x = lifeExp, fill = continent)) + facet_wrap( ~ year, ncol=4) + geom_density(alpha = 0.5)
+```
+
+
+5.  To facet wrap boxplots of life expectancy for each continent by year, I assigned geom_boxplot, and used color with the ggplot aes. I also rotated the x-axis labels to make them more legible. 
+
+```{r}
+ggplot(data = gapminder, aes(x = continent, y = lifeExp, color = continent)) + facet_wrap( ~ year, ncol=4) + geom_boxplot() + theme(axis.text.x = element_text(angle = 45)) + labs(x = "incontinent")
+```
+
+6.  To plot overall life expectancy by continent, I used "fill" within the ggplot aes and reduced opacity within geom_density by 0.5. 
+
+```{r}
+ggplot(data = gapminder, aes(x = lifeExp, fill = continent)) + geom_density(alpha = 0.5)
+```
+
+7.  To do the same thing with only Asia, I subset the data within ggplot using a pipe, and filled in with green using scale_fill_manual values.  I added a vertical line, calculated as the mean life expectancy of the subset Asia dataset, and retitled the figure. 
+
+```{r}
+ggplot(data = subset(gapminder, continent %in% c("Asia")), aes(x = lifeExp, fill = continent)) + geom_density(alpha = 0.5) + scale_fill_manual(values = c("green1")) + geom_vline(data = subset(gapminder, continent %in% c("Asia")), aes(xintercept = mean(lifeExp))) + guides(fill=FALSE) + ggtitle("Life expectancy in Asia")
+```
+
+8. To do the same thing, only facet wrapped with all continents, I used fill within the ggplot aes, facet wrapped by continent with 3 columns, and used ddply within geom_vline to draw mean life expectancy values within each facet wrapped figure. 
+
+```{r}
+ggplot(data = gapminder, aes(x = lifeExp, fill = continent))  + geom_density(alpha = 0.7) + geom_vline(data = ddply(gapminder, "continent", summarize, mean = mean(lifeExp)), aes(xintercept = mean)) + facet_wrap( ~ continent, ncol=3)
+```
+
+9. a. Here I uploaded the data as a txt file.
+
+```{r}
+Gapminder_New <- read.csv("~/Desktop/Gapminder_New.txt")
+```
+
+   b. The life expectancy column name was misspelled. 
+   
+```{r}
+mean_lifeExp <- mean(Gapminder_New$lifeExp)
+mean_lifeExp
+```
+   
+   c. The column names were not properly assigned as a vector using c().
+   
+```{r}
+small_set <- Gapminder_New[c(1, 2, 3, 4, 1300:1304), c('country', 'continent', 'year')]
+small_set
+```
+      
+   d. NA values within the gdpPercap column needed to be ignored using na.rm.
+   
+```{r}
+mean_gdp <- mean(Gapminder_New$gdpPercap, na.rm = TRUE)
+mean_gdp
+```      
+  
+  e.  "Which" is for losers.  Here I used filter to find the data for the country with max life expectancy, then used bracket to spit out the country name.  Throw me a real challenge next time.....
+   
+```{r}
+max_country <- filter(Gapminder_New, lifeExp == max(lifeExp))["country"]
+max_country
+```
