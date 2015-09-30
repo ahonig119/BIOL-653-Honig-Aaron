@@ -38,7 +38,7 @@ Life_Ranges
 
 3) Which country experienced the sharpest 5-year drop in life expectancy?
 
-This code should add a column that shows the life expectancy of each country five years prior to each year using the function "slide" in the package "DataCombine".  Then I renamed the column to avoid confusion.  Then I added a column that calculates the difference in life expectancy between a specific year and the life expectancy prior. Then I arrange the dataset in ascending order of "Five Year Difference".  Then find the minimum five year difference by country in each continent.  Then I print out a dataset that includes the country, the continent, the year, the life expectancy for that year, the life expectancy five years prior, and the calculated difference in life expectancy between those two time-points.  Ta. Da. 
+This code should add a column that shows the life expectancy of each country five years prior to each year using the function "slide" in the package "DataCombine".  Then I renamed the column to avoid confusion.  Then I added a column that calculates the difference in life expectancy between a specific year and the life expectancy prior. Then I arrange the dataset in ascending order of "Five Year Difference".  Then find the minimum five year difference by country in each continent.  Then I print out a dataset that includes the country, the continent, the year, the life expectancy for that year, the life expectancy five years prior, and the calculated difference in life expectancy between those two time-points. Then I do the same thing, only just for Africa, to see the worst years by country there. Ta. Da. 
 
 
 ```{r}
@@ -48,6 +48,9 @@ gapminder_5yr_lifeExp <- gapminder_5yr %>% group_by(country) %>% mutate(Five_Yea
 Sharpest_Drop <- arrange(gapminder_5yr_lifeExp %>% group_by(continent), Five_Year_Diff)
 Sharpest_Drop_By_Continent <- Sharpest_Drop %>% group_by(continent) %>% slice(which.min(Five_Year_Diff)) 
 Sharpest_Drop_By_Continent[c(1,2,3,4,7,8)]
+
+Sharpest_Drop_Dark_Continent <- arrange((gapminder_5yr_lifeExp %>% group_by(continent) %>% filter(continent == "Africa", year != 1952)), Five_Year_Diff)
+Sharpest_Drop_Dark_Continent[c(1,2,3,4,7,8)] 
 ```
 
 
