@@ -1,0 +1,54 @@
+---
+title: "Challenge Questions"
+author: "Aaron Honig"
+date: "September 30, 2015"
+output: html_document
+---
+
+Q's:
+1) How many countries are there on each continent?
+
+This code should filter the dataset by continent, then find the number of unique countries in each continent (column 1 in the dataset). 
+
+```{r}
+library(gapminder)
+library(dplyr)
+library(plyr)
+library(DataCombine)
+
+Country_Numbers <- c("Asia", sapply(gapminder %>% filter(continent == 'Asia'), function(x) length(unique(x)))[1], "Africa", sapply(gapminder %>% filter(continent == 'Africa'), function(x) length(unique(x)))[1], "Americas", sapply(gapminder %>% filter(continent == 'Americas'), function(x) length(unique(x)))[1], "Europe", sapply(gapminder %>% filter(continent == 'Europe'), function(x) length(unique(x)))[1], "Oceania", sapply(gapminder %>% filter(continent == 'Oceania'), function(x) length(unique(x)))[1])
+
+Country_Numbers
+```
+
+
+
+2) What countries have the best and worst life expectancies in each continent?
+
+This code should create a dataset summarizing the mean life expectancies by country over all years, then create a dataset combining two columns that calculate the maximum and minimum life expectancies for each continent, then renames the columns "Best Life" and "Worst Life".
+
+```{r}
+Mean_Life <- gapminder %>% group_by(continent, country) %>% summarize(Mean_Life = mean(lifeExp))
+Life_Ranges <- cbind(Mean_Life %>% group_by(continent) %>% slice(which.max(Mean_Life)), (Mean_Life %>% group_by(continent) %>% slice(which.min(Mean_Life)))[2:3])
+colnames(Life_Ranges)[c(3, 5)] <- c("Best_Life", "Worst_Life")
+
+Life_Ranges
+```
+
+
+3) Which country experienced the sharpest 5-year drop in life expectancy?
+
+This code should add a column that shows the life expectancy of each country five years prior to each year using the function "slide" in the package "DataCombine".  Then I renamed the column to avoid confusion.  Then I added a column that calculates the difference in life expectancy between a specific year and the life expectancy prior. Then I arrange the dataset in ascending order of "Five Year Difference".  Then find the minimum five year difference by country in each continent.  Then I print out a dataset that includes the country, the continent, the year, the life expectancy for that year, the life expectancy five years prior, and the calculated difference in life expectancy between those two time-points.  Ta. Da. 
+
+
+```{r}
+gapminder_5yr <- slide(gapminder %>% group_by(country, year), Var = "lifeExp", GroupVar = "country", slideBy = -1)
+colnames(gapminder_5yr)[7] <- c("Five_Year_Previous_lifeExp")
+gapminder_5yr_lifeExp <- gapminder_5yr %>% group_by(country) %>% mutate(Five_Year_Diff = lifeExp - Five_Year_Previous_lifeExp)
+Sharpest_Drop <- arrange(gapminder_5yr_lifeExp %>% group_by(continent), Five_Year_Diff)
+Sharpest_Drop_By_Continent <- Sharpest_Drop %>% group_by(continent) %>% slice(which.min(Five_Year_Diff)) 
+Sharpest_Drop_By_Continent[c(1,2,3,4,7,8)]
+```
+
+
+
