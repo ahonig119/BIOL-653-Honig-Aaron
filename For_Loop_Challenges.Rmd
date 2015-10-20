@@ -20,7 +20,8 @@ For Loops Challenges:
 
 2.  *Multiply each value in this matrix by 7 and store it in a 10 x 10 matrix.*
 
-        So here, I created a matrix with ten rows and columns, and within the for loop, multiplied each row (i) and column (j) by seven.  
+        So here, I created a matrix with ten rows and columns, and within 
+        the for loop, multiplied each row (i) and column (j) by seven.  
 
 ```{r}
       mat <- matrix(1:100, nrow = 10) # Enter matrix values, number of rows
@@ -33,18 +34,22 @@ For Loops Challenges:
       mat  # Print new matrix outside of for loop
 ```
 
-3.   *a) Print these values as part of a string that looks something like                'n = 16'.*
-     *b) Now modify this loop to store these strings in a new vector called               counts.*
+3.   *a) Print these values as part of a string that looks something like 'n = 16'.*
+     *b) Now modify this loop to store these strings in a new vector called counts.*
  
-        So here, I rounded 15 numbers randomly drawn from a uniform distribution between 10 and 100.  For each value in that vector, I pasted "n = " before that value, and placed it into a new vector called "counts".
+        So here, I rounded 15 numbers randomly drawn from a uniform distribution 
+        between 10 and 100.  For each value in that vector, I pasted "n = " before that value, 
+        and placed it into a new vector called "counts".
         
 ```{r}
       set.seed(1) # Enter seed number to keep random values constant
       x <- round(runif(min = 10, max = 100, n = 15)) 
-            # Put 15 random numbers between 10 and 100, drawn from a uniform                        distribution, then rounded them to the nearest hold number into vector "x"
+            # Put 15 random numbers between 10 and 100, drawn from a uniform distribution, 
+            then rounded them to the nearest hold number into vector "x"
       counts <- vector(length = 15) # Create blank vector of length 15
       for(i in 1:length(counts)){ # Tell for loop to integrate length of vector
-        counts[i] <- paste("n = ", x[i])                                                    # For each value of vector, paste together "n = " and the ordinal value of that           value
+        counts[i] <- paste("n = ", x[i])                                                    
+        # For each value of vector, paste together "n = " and the ordinal value of that value
       }
       counts $ # Print count vector
 ```      
@@ -56,14 +61,15 @@ For Loops Challenges:
 ```{r}
       power <- vector(length = 10) # Create blank vector of length 10
       for(i in 1:10){ # Tell for loop to integrate over length of vector
-        power[i] <- 2^i  # For each value of vector, calculate 2 to the power of that                             value
+        power[i] <- 2^i  # For each value of vector, calculate 2 to the power of that value
       }
       power # Print power vector
 ```
 
 5.    *Make a matrix where each entry, using indexes i for row and j for column, is equivalent to i x j. Your final output should look like:*
   
-      So here, I created a blank matrix of 12 rows and columns. For each row (i) and column (j) value, I multiplied each ordinal row value by each ordinal column value.  
+      So here, I created a blank matrix of 12 rows and columns. For each row (i) and column (j) value, 
+      I multiplied each ordinal row value by each ordinal column value.  
 
 ```{r}
       mat <- matrix(ncol = 12, nrow = 12) # Create blank matrix of 12 columns, rows
@@ -77,20 +83,28 @@ For Loops Challenges:
 
 6.    *Make a vector where each entry is TRUE or FALSE, based on whether it’s index is even or odd.*
 
-      So here, I tried two different things.  First, I created a vector of length ten, loaded a package called gtools, created a blank vector, and used the function "even" for each ordinal value of the vector to return a logical value for evenness.  Secondarily, I created a vector of length ten, and wrote an if/then statement returning an affirmative phrase if exactly half of the value was equal to half of that value rounded to the nearest whole number (only true if the value is even).  If it were not true, a negative phrase is returned. 
+      So here, I tried two different things.  First, I created a vector of length ten, 
+      loaded a package called gtools, created a blank vector, and used the function "even" 
+      for each ordinal value of the vector to return a logical value for evenness.  Secondarily, 
+      I created a vector of length ten, and wrote an if/then statement returning an affirmative 
+      phrase if exactly half of the value was equal to half of that value rounded to the nearest 
+      whole number (only true if the value is even).  If it were not true, a negative phrase is returned. 
 
 ```{r}
       x <- 1:10 # Create vector of integers 1 to 10
       library(gtools) # Load gtools package, which includes "even" function
       logic <- vector(length = 10) # Create blank vector of length 10
       for(i in 1:10){ # Tell for loop over which values to integrate
-        logic[i] <- even(x[i]) # For each vector value, print logical value for                                        evenness
+        logic[i] <- even(x[i]) # For each vector value, print logical value for evenness
       }
       logic # Print logic vector
 
       x <- c(1:10) # Create vector of integers 1 to 10
       for(i in 1:10){ # Tell for loop over which values to integrate
-        if(x[i]/2 == round(x[i]/2)){ # Write conditional if then to determine if                 exactly one half of vector value equals the rounded integer of one half of             vector value (only true if vector is divisible by 2; or even)
+        if(x[i]/2 == round(x[i]/2)){ 
+        # Write conditional if then to determine if exactly one half of vector 
+          value equals the rounded integer of one half of vector value (only true 
+          if vector is divisible by 2; or even)
         print(c(x[i],"Hell Ya, Man!")) # If True, then print in the affirmative
       } else { 
         print(c(x[i],"No Way Dude!")) # If not true, then print in the negative
@@ -100,17 +114,25 @@ For Loops Challenges:
 
   7.  *Using dplyr, calculate the mean abundance of each taxonomic group, what do you notice about the output? Is it what you would expect?*
   
-      So here, I created a character vector called taxa, randomly sampled that vector 100 times with replacement, generated 100 numbers randomly generated from a uniform distribution between 10 and 500, joined both in a single dataframe, capitalized the dataframe and columns names, and calculated the mean abundance values for each taxa. 
+      So here, I created a character vector called taxa, randomly sampled that vector 
+      100 times with replacement, generated 100 numbers randomly generated from a uniform 
+      distribution between 10 and 500, joined both in a single dataframe, capitalized the 
+      dataframe and columns names, and calculated the mean abundance values for each taxa. 
     
 ```{r}
-      taxa <- c('Coral', 'fish', 'Fish', 'Phytoplankton', 'coral',                      'phytoplankton', 'zooplankton', 'Zooplankton', 'Echinoderms',                   'echinoderms', 'Cephalopods', 'cephalopods') # Inform vector "taxa"
-      taxa_values <- sample(taxa, size = 100, replace = TRUE) # Randomly sample 100            values from taxa vector with replacement
+      taxa <- c('Coral', 'fish', 'Fish', 'Phytoplankton', 'coral', 'phytoplankton', 'zooplankton', 'Zooplankton', 'Echinoderms', 'echinoderms', 'Cephalopods', 'cephalopods') # Inform vector "taxa"
+      taxa_values <- sample(taxa, size = 100, replace = TRUE) 
+          # Randomly sample 100  values from taxa vector with replacement
       set.seed(1) # Enter seed number to keep random values constant
-      counts <- round(runif(min = 10, max = 500, n = 100)) # Put 15 random numbers             between 10 and 100, drawn from a uniform distribution, then rounded them to the         nearest hold number into vector "counts"
-      taxa_counts <- data.frame(taxa = taxa_values, abundance = counts) # Create               dataframe "taxa_counts" with taxa_values and count vectors
+      counts <- round(runif(min = 10, max = 500, n = 100)) 
+          # Put 15 random numbers between 10 and 100, drawn from a uniform distribution, 
+            then rounded them to the nearest hold number into vector "counts"
+      taxa_counts <- data.frame(taxa = taxa_values, abundance = counts) 
+          # Create dataframe "taxa_counts" with taxa_values and count vectors
       colnames(taxa_counts) <- c("Taxa", "Abundance") # Rename columns
       TaxaCounts <- taxa_counts # Rename dataset
-      ddply(TaxaCounts, ~Taxa,summarise, mean=mean(Abundance)) # Summarize mean                Abundance values, grouped by Taxa
+      ddply(TaxaCounts, ~Taxa,summarise, mean=mean(Abundance)) 
+         # Summarize mean Abundance values, grouped by Taxa
 ```
    
    So no, there are duplicate names because some are not capitalized.  So I need to standardize the capitalization of the taxa names. So here I use a for loop to take the first letter of every taxa name, make that letter capitalized, paste it to the rest of the taxa name, and find the mean abundance for each of the now-capitalized taxa names.
@@ -118,9 +140,13 @@ For Loops Challenges:
    
 ```{r}      
       for(i in 1:100){ # Tell for loop over which values to integrate
-      TaxaCounts[i,1] <- paste(toupper(substring(TaxaCounts[i,1], 1, 1)),               substring(TaxaCounts[i,1], 2,15), sep = "", collapse = " ")
-      } # Take first letter of each name in the first column of TaxaCounts using               "substring", make that letter uppercase with "toupper" and paste it to                 the next 15 letters of each name, getting rid of extra spaces with                     "collapse"
-      ddply(TaxaCounts, ~Taxa,summarise,mean=mean(Abundance)) # Summarize mean                 Abundance values, grouped by Taxa
+      TaxaCounts[i,1] <- paste(toupper(substring(TaxaCounts[i,1], 1, 1)), substring(TaxaCounts[i,1], 2,15), sep = "", collapse = " ")
+      } 
+         # Take first letter of each name in the first column of TaxaCounts using 
+           "substring", make that letter uppercase with "toupper" and paste it to 
+           the next 15 letters of each name, getting rid of extra spaces with "collapse"
+      ddply(TaxaCounts, ~Taxa,summarise,mean=mean(Abundance)) 
+         # Summarize mean Abundance values, grouped by Taxa
 ```
 
 
